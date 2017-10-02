@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html,
+section,
+header  {
+    width: 100%;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+/* HEADER */
+
+header .nav-container,
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    line-height: 23px;
+}
+
+header .nav-container nav {
+    width: 60%;
+}
+
+.logo {
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.logo > img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+header .logo {
+    width: 40%;
+}
+
+.nav-container nav {
+    margin-right: 38px;
+}
+
+.nav-container nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container nav ul li {
+    display: inline-block;
+}
+
+.nav-container nav ul li a {
+    text-decoration: none;
+    font-size: 4px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.nav-container nav ul li a:hover {
+    cursor: pointer;
+    color: #000;
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.header-bottom {
+    text-align: center;
+    width: 100%;
+    height: 190px;
+    background: url(img/background-image.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header .heading {
+    padding-top: 51px;
+}
+
+.heading {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px grey;
+}
+
+.header-bottom p {
+    margin-top: 15px;
+    font-size: 6px;
+    width: 30%;
+    margin: 15px auto;
+}
+
+.header-bottom button {
+    border-radius: 15px;
+    border: none;
+    width: 70px;
+    height: 14px;
+    text-transform: uppercase;
+    font-size: 6px;
+    color: white;
+    background: #ffcd02;
+}
+
+.header-bottom button:hover{
+    background: #19cdfa;
+    cursor: pointer;
+}
+
+
+/* MAIN */
+
+.left,
+.right {
+    width: 50%;
+}
+
+.sub-heading {
+    font-size: 7px;
+    color: white;
+}
+
+.section-1,
+.section-3 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.section-1 .left,
+.section-1 .right,
+.section-3 .left,
+.section-3 .right {
+    text-align: center ;
+    box-sizing: border-box;
+    padding-top: 41px;
+    padding-right: 36px;
+}
+
+.section-1 .sub-heading,
+.section-3 .sub-heading {
+    margin-top: 7px;
+}
+
+/* Section-1 */
+
+.section-1 .left {
+    background: url(img/headphone-yellow.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #19cdfa;
+}
+
+.section-1 .right {
+    background: url(img/headphone-black.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*  Section-2  */
+.section-2 {
+    width: 100%;
+    height: 200px;
+    background: #f6f7fb;
+}
+
+.section-2 > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.headphones-container {
+    display: flex;
+    justify-content: space-around;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+.headphones {
+    background: #ffffff;
+    width: 31%;
+    height: 144px;
+    text-align: center;
+}
+
+.headphones > img {
+    width: 38%;
+    margin-top: 8px;
+}
+
+.headphones .sub-heading {
+    color: #19cdfa;
+    margin-top: 5px;
+}
+
+.headphones .number-of-products {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #888788;
+}
+
+/*  Section-3 */
+
+.section-3 .left {
+    background: url(img/showcase1.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #19cdfa;
+}
+
+.section-3 .right {
+    background: url(img/showcase2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #fc3598;
+}
+
+/* Section-4  */
+.section-4 {
+    background: #f6f7fb;
+    width: 100%;
+    text-align: center;
+}
+
+.section-4 > h1 {
+    font-weight: 500;
+    font-size: 19px;
+    padding: 15px 0;
+}
+
+.blogs-container {
+    width: calc(100% - 30px);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.blog {
+    width: 25%;
+}
+
+.blog > img {
+    width: 100%;
+}
+
+.blog-date {
+    font-size: 7px;
+    color: #a9a6a7;
+}
+
+.blog-heading {
+    font-size: 8px;
+    margin: 10px 0;
+}
+
+.blog-content {
+    font-size: 7px;
+    color: #a9a6a7;
+}
+
+.blog > a {
+    color: #19cdfa;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

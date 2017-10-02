@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Vollkorn');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Vollkorn, sans-serif;
+}
+
+main > h1 {
+    position: absolute;
+    left: -33px;
+    top: -50px;
+    font-weight: bold;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 76px;
+}
+
+img {
+    display: block;
+    width: 281px;
+    height: 177px;
+    margin: 9px auto;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.img-container {
+    border: solid 2px #DCDADA;
+    float: left;
+    width: 300px;
+    height: 196px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.info-container {
+    height: 220px;
+    width: 1020px;
+    margin-left: 20px;
+}
+
+.info-container p:first-of-type {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.read-more {
+    margin-top: 20px;
+}
+
+.info-container h1,
+.read-more a{
+    color: #72AEB4;
+}

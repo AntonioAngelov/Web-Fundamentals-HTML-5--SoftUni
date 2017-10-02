@@ -1,0 +1,78 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    font-family: Lato, sans-serif;
+}
+
+.wrapper {
+    width: 65%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.tours-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour {
+    width: 24%;
+}
+
+.image-container {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+.wrapper > h1 {
+    font-size: 31px;
+    color: #414143;
+}
+
+#description {
+    margin: 30px auto 47px auto;
+    width: 45%;
+    font-size: 11.5px;
+    color: #9C9C9C;
+}
+
+.stars > i {
+    font-size: 14px;
+    color: #e4706f;
+}
+
+.stars {
+    margin-bottom: 7px;
+    margin-top: 19px;
+}
+
+.destination {
+    color: #414143;
+    font-size: 18px;
+}
+
+.country {
+    margin-bottom: 7px;
+    font-size: 9px;
+    color: #9C9C9C;
+}
+
+.price {
+    color: #414143;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 11px;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    width: 890px;
+    height: 482px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ABAFB2;
+    padding: 0 10px;
+    font-family: Calibri Light , Verdana , sans-serif;
+}
+
+main article {
+    display: inline-block;
+    vertical-align: top;
+    width: 199px;
+    margin-right: 20px;
+}
+
+main article img {
+    width: 180px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+img:hover {
+    opacity: 0.4;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a > p {
+    margin-top: 10px;
+}

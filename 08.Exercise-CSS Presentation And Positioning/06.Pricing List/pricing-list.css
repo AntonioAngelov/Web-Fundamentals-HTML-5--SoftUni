@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Vollkorn');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1000px;
+    font-family: 'Vollkorn', sans-serif;
+    margin: 0 auto;
+}
+
+main > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #778495;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+article {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    border: solid 1px #EBEFF2;
+    margin-left: 8px;
+    height: 507px;
+}
+
+article > h2 {
+    background-color: #EBEFF2;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 82px;
+    width: 100%;
+    color: #6B7889;
+}
+
+.price {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #7F8D98;
+}
+
+article > ul > li {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 15px;
+    border-bottom: solid 1px #EBEFF2;
+    text-align: left;
+    width: 280px;
+    margin-left: 13px;
+    color: #7A8798;
+}
+
+article > button {
+    position: absolute;
+    top: 437px;
+    left: 21px;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 267px;
+    line-height: 51px;
+    border-radius: 7%;
+    color: #FFFFFF;
+}
+
+main > article:hover > h2,
+main > article:hover > button {
+    background-color: #65D3E2;
+}
+
+main > article:hover .price {
+    color: #65D3E2;
+}

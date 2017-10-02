@@ -1,0 +1,200 @@
+/* latin-ext */
+@font-face {
+	font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v13/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v13/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body{	
+	font-family: 300 16px/22px "Lato", sans-serif;
+}
+
+nav{
+	background-color: #293F50;	
+	height: 45px;
+    line-height: 45px;
+}
+
+ul{
+	list-style-type: none;
+	
+}
+
+* {
+	margin: 0;
+    padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li > a.topheader{
+	color: #57796F;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-left: 22px;
+}
+
+nav li > a{
+	color: #57796F;
+	text-decoration: none;
+	padding-left: 22px;
+}
+
+header{
+	background-color: #293F50;
+	height: 450px;
+}
+
+header p.date{
+	color: #57796F;
+	text-align: right;
+	padding-right: 18px;
+	text-transform: uppercase;
+}
+
+header > h1{
+	color: #FFFFFF;
+	font-weight: 300;
+    height: 190px;
+    line-height: 190px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header > h2 {
+	color: #5D847A;
+	text-align: center;
+	font-weight: 100;
+}
+
+header > p.info{
+	color: #DEDBDE;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 16px;
+}
+
+header p a.btn{
+	text-transform: uppercase;
+    text-decoration: none;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-radius: 5px;
+	border-top-width: 2px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a.btn:hover{
+	background-color: #FFFFFF;
+	color: #293F50;	
+}
+
+section{
+	display: inline-block;
+}
+
+main{
+	margin-top: 14px;
+    margin-bottom: 14px;
+	border-style: solid;
+	border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+	
+}
+
+main > section{
+	
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 230px;
+}
+
+section > p.sectioninfo{
+	color: #AEBBCE;
+}
+
+p.sectiontitle{
+	color: #57796F;
+	margin-bottom: 28px;
+}
+
+main > section > img{
+	width: 317px;
+	margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header p.btncontainer{
+	text-align: center;
+	padding-top: 26px;
+}
+
+footer{
+	background-color: #293F50;	
+	color: #57796F;
+	padding-left: 20px;
+	height: 45px;
+	line-height: 45px;	
+}
+
+footer > nav{
+	display: inline-block;
+	text-align: left;
+	position: absolute;
+	right: 20px;
+}
+

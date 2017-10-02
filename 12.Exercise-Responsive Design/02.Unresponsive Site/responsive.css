@@ -1,0 +1,55 @@
+@media all and (max-width: 959px) {
+    body #wrapper {
+        width: 100%;
+    }
+
+    body #wrapper > aside {
+        display: block;
+    }
+
+    body #wrapper > aside div {
+        padding: 10px;
+    }
+
+}
+
+@media all and (max-width: 779px){
+    body #wrapper > header nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    body #wrapper > header h1 a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 639px){
+    body #wrapper > header nav ul li {
+        width: 100%;
+    }
+
+    body #wrapper > header h1 a {
+        justify-content: center;
+    }
+
+    body #wrapper > section {
+        width: 100%;
+        order: 2;
+    }
+
+    body #wrapper > aside {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media all and (max-width: 479px) {
+    body #wrapper > aside {
+        flex-wrap: wrap;
+    }
+}

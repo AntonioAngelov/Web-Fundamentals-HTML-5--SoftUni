@@ -1,0 +1,143 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eeeeee;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+header,
+main {
+    width: 800px;
+    background: white;
+    margin: 0 auto;
+}
+
+main {
+    height: 408px;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header > h1 {
+    margin-bottom: 15px;
+}
+
+header > p {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 21px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+form {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.register,
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.register {
+    margin-left: 49px;
+}
+
+.register > h4,
+.login > h4{
+    margin-bottom: 13px;
+}
+
+input {
+    width: 311px;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+.register > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.register > div > p {
+    width: 292px;
+    color: #c4cad3;
+}
+
+.login button,
+.register button{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 4px 7px #e7e7e7;
+    height: 40px;
+}
+
+.register button {
+    width: 190px;
+}
+
+.login button {
+    width: 121px;
+}
+
+div > a {
+    margin-bottom: 18px;
+    text-decoration: none;
+    color: red;
+    font-weight: lighter;
+}
+
+.checked {
+    position: relative;
+}
+
+.red-x {
+    position: relative;
+}
+
+.checked:after {
+    font-family: FontAwesome, serif;
+    position: absolute;
+    content: '\f00c';
+    color: #ffffff;
+    border: 1px solid #00ff00;
+    background: #00ff00;
+    padding: 2px;
+    left: 275px;
+    top: 7px;
+    font-size: 20px;
+}
+
+.red-x:after {
+    font-family: FontAwesome, serif;
+    position: absolute;
+    content: '\f00d';
+    color: #ffffff;
+    border: 1px solid #ff0500;
+    background: #ff0500;
+    padding: 2px;
+    left: 275px;
+    top: 7px;
+    font-size: 23px;
+}

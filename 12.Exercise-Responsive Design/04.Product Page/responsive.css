@@ -1,0 +1,89 @@
+/*TODO*/
+@media screen and (max-width: 639px){
+    #header-bottom-area {
+        display: none;
+    }
+
+    #header-top-area > h2 {
+        display: none;
+    }
+
+    #header-top-area {
+        height: 37px;
+        padding-top: 0.3rem;
+    }
+
+    #header-top-area,
+    #header-middle-area {
+        border-bottom: 1px solid #b5b9ba;
+    }
+    
+    #product-menu {
+        display: block;
+        width: 100%;
+    }
+
+    #product-menu:hover ul li .submenu {
+        display: block;
+    }
+    
+    .submenu > li > a {
+        cursor: pointer;
+    }
+
+    #product-menu ul .product-type a {
+        font-size: 21px;
+    }
+}
+
+/* main part  */
+.wrap {
+    width: 100%;
+}
+
+
+.box {
+    width: 100%;
+}
+
+.wrap > ul li:nth-of-type(2), li:last-of-type {
+    display: none;
+}
+
+/* footer */
+
+footer {
+    height: 100%;
+    text-align: center;
+
+}
+
+footer .wrap > *,
+footer .wrap {
+    text-align: center;
+    padding: 0;
+    background-color: #27292f;
+}
+
+.wrap .box.share {
+    padding-top: 10px;
+}
+
+.box.share,
+.box.share > a{
+    color: white;
+}
+
+.wrap .box.share strong {
+    vertical-align: bottom;
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.box.email-newsletter > span {
+    display: block;
+}
+
+.box.copyright > span {
+    color: #3e4046;
+}
